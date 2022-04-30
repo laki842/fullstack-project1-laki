@@ -1,0 +1,49 @@
+.spaceship-cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin: 30px;
+}
+
+.spaceship-card {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spaceship-title {
+  margin: 10px;
+  color: white;
+}
+
+.spaceship-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 6rem;
+}
+
+.spaceship-state,
+.spaceship-manufacturer {
+  color: #0d0d29;
+  padding: 5px;
+}
+
+.spaceship-price {
+  padding: 10px;
+  color: #1b1717;
+  font-weight: 800;
+}
+/*# sourceMappingURL=SpaceshipCard.css.map */

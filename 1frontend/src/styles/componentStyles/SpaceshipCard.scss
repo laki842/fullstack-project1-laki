@@ -1,0 +1,39 @@
+.spaceship-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 30px;
+}
+
+.spaceship-card {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin: 10px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spaceship-title {
+  margin: 10px;
+  color: white;
+}
+
+.spaceship-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 6rem;
+}
+
+.spaceship-state,
+.spaceship-manufacturer {
+  color: rgb(13, 13, 41);
+  padding: 5px;
+}
+
+.spaceship-price {
+  padding: 10px;
+  color: rgb(27, 23, 23);
+  font-weight: 800;
+}
